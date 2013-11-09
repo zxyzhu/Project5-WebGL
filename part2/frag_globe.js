@@ -341,11 +341,11 @@
         texture.image.src = src;
     }
 
-    initializeTexture(dayTex, "earthmap1024.png");
-    initializeTexture(bumpTex, "earthbump1024.png");
-    initializeTexture(cloudTex, "earthcloud1024.png");
-    initializeTexture(transTex, "earthtrans1024.png");
-    initializeTexture(lightTex, "earthlight1024.png");
-    initializeTexture(specTex, "earthspec1024.png");
-    initializeTexture(heightTex, "earthheight1024.png");
+    initializeTexture(dayTex, "./part2/earthmap1024.png");
+    initializeTexture(bumpTex, "./part2/earthbump1024.png");
+    initializeTexture(cloudTex, "./part2/earthcloud1024.png");
+    initializeTexture(transTex, "./part2/earthtrans1024.png");
+    initializeTexture(lightTex, "./part2/earthlight1024.png");
+    initializeTexture(specTex, "./part2/earthspec1024.png");
+    initializeTexture(heightTex, "./part2/earthheight1024.png");
 }());
