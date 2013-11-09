@@ -320,11 +320,7 @@
         gl.bindTexture(gl.TEXTURE_2D, heightTex);
         gl.uniform1i(u_HeightLocation, 6);
 
-        //for performace eval
-
-            stats.begin();
-            gl.drawElements(gl.TRIANGLES, numberOfIndices, gl.UNSIGNED_SHORT, 0);
-            stats.end();
+        gl.drawElements(gl.TRIANGLES, numberOfIndices, gl.UNSIGNED_SHORT, 0);
 
         time += 0.0002;
         window.requestAnimFrame(animate);
